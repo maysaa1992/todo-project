@@ -1,0 +1,81 @@
+#Page_title {color: black;
+  font-size: 30px;
+ 
+  padding-top: 80px;
+  padding-left: 480px;
+  font-weight:bold;}
+
+  #Page_title2 {
+    color: red;
+    font-size: 40px;
+    padding-top: 45px;
+    margin-left:500px;
+    font-weight:bold;
+  }
+  #text1{
+    color:#c0392b;
+    font-size: 30px;
+  margin-top: 30px;
+    margin-left:450px;
+  }
+  label{
+    width: 120px;
+    display: inline-block;
+  }
+#inputText{
+  float: none;
+margin-left: 300px;
+padding-top: 30px;
+display: inline-block;
+align-items: center;
+
+  }
+header{
+  display: flex;
+  align-items: center;
+  background-color:#9cbfe5 ;
+}
+
+
+li ,a {
+  text-decoration: none;
+}
+.nav1 li{
+  display: inline-block;
+  padding-left: 300px;
+}
+a:hover{
+  color: blue;
+}
+
+#table1{
+  border-collapse: collapse;
+  width: 100%;
+  height: 100%;
+  padding-left: 480px;
+  padding-top: 50px;
+}
+th{ 
+   font-weight:bold;
+}
+th, td {
+  table-layout: fixed;
+  text-align: left;
+  padding: 16px;
+  padding-left: 15px;
+  padding-right: 30;
+}
+#footer1{
+  align-items: center;
+  padding-left: 500px;
+  background-color:#9cbfe5;
+  background-size: 200px;
+  position:absolute;
+  bottom:0;
+  width:100%
+
+}
+#form1{
+  margin-top:0px;
+    margin-left:450px;
+}
