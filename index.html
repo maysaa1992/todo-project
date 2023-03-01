@@ -4,63 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./home.css">
+
     <title>Document</title>
+    
 </head>
 <body>
-    <script src="./app.js"></script>
-    <head>
-        <nav>
-            <ul>
-    <h1>To Do List</h1>
-    <a href="./about.html">Informatin</a>
-</ul>
-</nav>
-</head>
+    
+    <header>
+            <img src="todolist2.jpg" alt="logo"  width="30" height="40" > 
+             
+            <nav>
+            <ul class="nav1"> 
+             <li>  <a href="./index.html">home </a> </li>
+             <li>   <a href="./about.html">abot us</a>  </li>                
+                </ul>                            
+                  </nav>        
+</header >
+
 <main>
-    <nav>
-        <ul>
+    <section>
+     <div id="Page_title" >
+        <h1>ToDo List</h1>
+     </div>   
+    </section>
+    <section>
+        <div id="table1">
     <table border="1">
-        <tr>
-        <th>Task</th>
+<tr>
+    <th>List</th>
     <th>Status</th>
 </tr>
 <tr>
-    <td>meet clint</td>
-    <td> <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-        <label for="vehicle1"> Done</label><br>
-        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-        <label for="vehicle2"> Dont Done</label><br></td>  
+    <td >learn JS  <input style="margin-left: 100px;" type="checkbox" id="vehicle1" name="vehicle1" value="Bike">  </td> 
+    <td style=" background-color: rgb(0, 255, 34);"></td>     
+</tr>
+<tr>
+    <td>Creat HTML page  <input style="margin-left: 35px;"  type="checkbox" id="vehicle1" name="vehicle1" value="Bike">  </td>
+    <td style=" background-color: red;"></td>      
+</tr>
+<tr>
+    <td>walk the dog  <input style="margin-left: 67px;" type="checkbox" id="vehicle1" name="vehicle1" value="Bike">  </td>
+    <td style=" background-color: red;"></td>      
+</tr>
+<tr>
+    <td>watch the match <input style="margin-left: 48px;" type="checkbox" id="vehicle1" name="vehicle1" value="Bike">  </td>   
+    <td style=" background-color: red;"></td>   
+</tr>
 
-</tr>
-<tr>
-    <td>update app content</td>
-    <td><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-        <label for="vehicle1"> Done</label><br>
-        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-        <label for="vehicle2"> Dont Done</label><br></td>
-</tr>
-<tr>
-    <td>Review contract </td>
-    <td><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-        <label for="vehicle1"> Done</label><br>
-        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-        <label for="vehicle2"> Dont Done</label><br></td>
-</tr>
     </table>
-</ul>
-</nav>
+</div>
+</section>
 </main>
-<footer>
-    <nav>
-         <ul>
-        <section>
-            <a href="">www.todolist.com</a>
-        </section>
-    </ul>
-</nav>
+
+<footer> 
+    <section>
+    <div id="footer1" >      
+    <p> &copy; 2023 All Right Reserved </p>
+</div> 
+</section>  
+</footer> 
    
-</footer>
-   
-    
 </body>
 </html>
