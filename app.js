@@ -17,9 +17,9 @@ else if ( gender != "male" && gender!="female"){
     var welcom =confirm("are you wants to show the welcoming message")
     if (welcom==true){alert("welcom "+ name );} }
 
-// do {
-//     var age =prompt("whats your age ");
-//     if (age<=0){alert("the age is less than or equal to zero plese input your age agine")}
-//   } while (age <=0);
+do {
+   var age =prompt("whats your age ");
+   if (age<=0){alert("the age is less than or equal to zero plese input your age agine")}
+  } while (age <=0);
 
 
