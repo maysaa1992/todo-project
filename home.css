@@ -79,3 +79,15 @@ th, td {
   margin-top:0px;
     margin-left:450px;
 }
+
+
+.fhak{
+  background-color: green;
+  width: 70px;
+  height: 20px;
+}
+.tdbg{
+  background-color:red;
+  width: 70px;
+  height: 20px;
+}
